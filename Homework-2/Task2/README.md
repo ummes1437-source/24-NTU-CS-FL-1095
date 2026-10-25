@@ -30,8 +30,6 @@ LED2: 75% F:5000Hz
 ## Wokwi Result
 In Wokwi both LEDs fade and the OLED updates live. The OLED shows the duty cycle of both LEDs changing and the frequencies 1000 Hz and 5000 Hz.
 
-Wokwi project link: [Paste your project link here]
-
 ## Hardware Result
 On the physical ESP32 board both LEDs fade and the OLED shows the live duty-cycle percentages and frequencies. The values on the OLED match the values used by the program.
 
@@ -39,4 +37,4 @@ On the physical ESP32 board both LEDs fade and the OLED shows the live duty-cycl
 The results are the same. The OLED I2C address is 0x3C, and some boards use 0x3D, which is the only setting that may need a change on hardware. OLED pin order can also differ between boards, so the pin labels should be checked.
 
 ## Screenshots
-The screenshots folder contains all ecvidence.
+The screenshots folder contains all evidence.
